@@ -8,6 +8,8 @@ An automated overnight cat-yowl intervention system powered by YAMNet.
 
 The program continuously listens for cat vocalizations, automatically plays escalating deterrent sounds when yowling is detected, and records every event for later behavioral analysis. It is designed as a behavioral experiment rather than a guaranteed solution — it helps determine whether acoustic intervention is effective for an individual cat while collecting evidence about *why* the cat is vocalizing (heat cycle, food-seeking, attention-seeking).
 
+[English](README.md) | [日本語](README.ja.md)
+
 ## Architecture
 
 ```
