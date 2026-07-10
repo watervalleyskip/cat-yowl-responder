@@ -1,0 +1,37 @@
+{
+  "audio": {
+    "sample_rate": 16000,
+    "window_seconds": 0.975,
+    "hop_seconds": 0.5,
+    "input_device": null
+  },
+  "detection": {
+    "trigger_classes": {
+      "Caterwaul": 0.25,
+      "Meow": 0.40,
+      "Cat": 0.50
+    },
+    "consecutive_hits": 2,
+    "pause_after_playback_seconds": 3.0
+  },
+  "escalation": {
+    "materials": [
+      "sounds/A_hiss.wav",
+      "sounds/B_growl.wav",
+      "sounds/C_fight.wav"
+    ],
+    "rearm_window_seconds": 15,
+    "burst_limit": 3,
+    "forced_silence_minutes": 5,
+    "quiet_reset_minutes": 10
+  },
+  "playback": {
+    "volume": 0.15
+  },
+  "logging": {
+    "clips_dir": "clips",
+    "log_csv": "logs/triggers.csv",
+    "pre_seconds": 3.0,
+    "post_seconds": 3.0
+  }
+}
