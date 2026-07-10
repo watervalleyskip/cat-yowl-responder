@@ -3,11 +3,11 @@
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
-[English](README.md) | [日本語](README.ja.md)
 
 YAMNet を利用した、夜間の猫の鳴き声（遠吠え）自動介入システム。
 
 本プログラムはマイク入力を常時監視し、猫の鳴き声を検出すると段階的に強度を上げた威嚇音を自動再生し、すべてのイベントを記録して後から行動分析できるようにします。効果を保証するツールではなく、**行動実験ツール**として設計されています。音による介入が個々の猫に有効かどうかを検証すると同時に、鳴き声の原因（発情・餌の要求・注意を引くための行動）を特定する手がかりとなるデータを収集します。
+[English](README.md) | [日本語](README.ja.md)
 
 ## アーキテクチャ
 
