@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+[English](README.md) | [日本語](README.ja.md)
 
 YAMNet を利用した、夜間の猫の鳴き声（遠吠え）自動介入システム。
 
